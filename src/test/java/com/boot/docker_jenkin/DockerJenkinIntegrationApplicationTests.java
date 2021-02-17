@@ -13,7 +13,7 @@ class DockerJenkinIntegrationApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.error("Test case Executing...");
+		logger.error("Test case Executing........");
 		assertEquals(true, true);
 	}
 

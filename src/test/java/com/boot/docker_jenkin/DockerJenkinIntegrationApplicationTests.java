@@ -13,9 +13,7 @@ class DockerJenkinIntegrationApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.error("Test case Executing........");
-		logger.error("Test case Executing........Second Time");
-		logger.error("Test case Executing........Fourth Time");
+		logger.error("Test case Executing........Pipeline and Normal");
 		assertEquals(true, true);
 	}
 
